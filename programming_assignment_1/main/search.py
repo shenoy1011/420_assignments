@@ -167,7 +167,7 @@ def a_star_search(problem, heuristic=heuristic1):
     frontier = []
     start_state = problem.get_start_state()
     h_calc = heuristic(start_state, problem)
-    print(h_calc)
+    #print(h_calc)
     root = Node(start_state, h_calc)
     #frontier.put(root.f, root)
     heapq.heappush(frontier, (root.f, root))
@@ -178,7 +178,7 @@ def a_star_search(problem, heuristic=heuristic1):
     while frontier:
         #node = frontier.get()
         node = heapq.heappop(frontier)[1]
-        print(node)
+        #print(node)
         if problem.is_goal_state(node.state):
             return node.output_actions()
         successors = problem.get_successors(node.state)
@@ -188,8 +188,8 @@ def a_star_search(problem, heuristic=heuristic1):
             if succState not in reached or child.g < reached[succState]:
                 reached[succState] = child.g
                 #frontier.put(child.f, child)
-                print("Child.f: ")
-                print(child.f)
+                #print("Child.f: ")
+                #print(child.f)
                 heapq.heappush(frontier, (child.f, child))
     
     return ["Action not found"]
