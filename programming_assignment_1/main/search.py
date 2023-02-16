@@ -66,6 +66,13 @@ def heuristic1(state, problem=None):
     # 
     # heuristic for the find-the-goal problem
     # 
+    
+    # ADDED CODE 
+    # print(state)
+    # print(problem)
+    # help(state)
+    # ADDED CODE 
+
     if isinstance(problem, SearchProblem):
         # data
         pacman_x, pacman_y = state
@@ -73,7 +80,7 @@ def heuristic1(state, problem=None):
         
         # YOUR CODE HERE (set value of optimisitic_number_of_steps_to_goal)
         
-        optimisitic_number_of_steps_to_goal = 0
+        optimisitic_number_of_steps_to_goal = abs(pacman_x - goal_x) + abs(pacman_y - goal_y)
         return optimisitic_number_of_steps_to_goal
     # 
     # traveling-salesman problem (collect multiple food pellets)
@@ -83,9 +90,17 @@ def heuristic1(state, problem=None):
         position, food_grid = state
         pacman_x, pacman_y = position
         
+        # ADDED CODE 
+        #help(food_grid)
+        #food_grid.data
+        # ADDED CODE 
+
         # YOUR CODE HERE (set value of optimisitic_number_of_steps_to_goal)
-        
+
         optimisitic_number_of_steps_to_goal = 0
+        remaining_food = food_grid.as_list()
+        for x, y in remaining_food:
+            optimisitic_number_of_steps_to_goal += (abs(pacman_x - x) + abs(pacman_y - y))
         return optimisitic_number_of_steps_to_goal
 
 def a_star_search(problem, heuristic=heuristic1):
@@ -113,12 +128,72 @@ def a_star_search(problem, heuristic=heuristic1):
     #     ]
     # 
     # Example:
-    #     start_state = problem.get_start_state()
-    #     transitions = problem.get_successors(start_state)
-    #     example_path = [  transitions[0].action  ]
-    #     path_cost = problem.get_cost_of_actions(example_path)
-    #     return example_path
+    # start_state = problem.get_start_state()
+    # transitions = problem.get_successors(start_state)
+    # heuristic(start_state, problem)
+    # example_path = [  transitions[0].action  ]
+    # path_cost = problem.get_cost_of_actions(example_path)
+    # return example_path
+
+    from queue import PriorityQueue
+    import heapq
     
+    class Node:
+        def __init__(self, state, h, action=None, parent=None, g=None):
+            self.state = state
+            self.action = action
+            self.parent = parent
+            if parent:
+                self.g = g + parent.g
+            else:
+                self.g = 0
+            self.h = h
+            self.f = self.g + self.h
+
+        def __lt__(self, other):
+            return True
+
+        def output_actions(self):
+            actions = []
+            node = self
+            while node:
+                if node.action:
+                    actions.append(node.action)
+                node = node.parent
+            actions.reverse()
+            return list(actions)
+
+    #frontier = PriorityQueue()
+    frontier = []
+    start_state = problem.get_start_state()
+    h_calc = heuristic(start_state, problem)
+    #print(h_calc)
+    root = Node(start_state, h_calc)
+    #frontier.put(root.f, root)
+    heapq.heappush(frontier, (root.f, root))
+    reached = {}
+    reached[start_state] = 0
+
+    #while not frontier.empty():
+    while frontier:
+        #node = frontier.get()
+        node = heapq.heappop(frontier)[1]
+        #print(node)
+        if problem.is_goal_state(node.state):
+            return node.output_actions()
+        successors = problem.get_successors(node.state)
+        for succState, succAction, succCost in successors:
+            child_h_calc = heuristic(succState, problem)
+            child = Node(succState, child_h_calc, succAction, node, succCost)
+            if succState not in reached or child.g < reached[succState]:
+                reached[succState] = child.g
+                #frontier.put(child.f, child)
+                #print("Child.f: ")
+                #print(child.f)
+                heapq.heappush(frontier, (child.f, child))
+    
+    return ["Action not found"]
+
     util.raise_not_defined()
 
 
