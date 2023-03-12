@@ -1,0 +1,65 @@
+>> ttt
+Welcome to tic tac toe
+. . . 
+. . . 
+. . . 
+>> move X B 2
+. . . 
+. X . 
+. . . 
+>> move O A 2
+. O . 
+. X . 
+. . . 
+>> choose X
+move (A,1), Utility score: 0.3999999999999999
+move (A,3), Utility score: 0.3999999999999999
+move (B,1), Utility score: 0.3999999999999999
+move (B,3), Utility score: 0.3999999999999999
+move (C,1), Utility score: 0.3999999999999999
+move (C,2), Utility score: 0.0
+move (C,3), Utility score: 0.3999999999999999
+Number of nodes searched: 7064
+X O . 
+. X . 
+. . . 
+>> choose O
+move (A,3), Utility score: -0.7
+move (B,1), Utility score: -0.7
+move (B,3), Utility score: -0.7
+move (C,1), Utility score: -0.7
+move (C,2), Utility score: -0.7
+move (C,3), Utility score: -0.5
+Number of nodes searched: 1061
+X O . 
+. X . 
+. . O 
+>> choose X
+move (A,3), Utility score: 0.0
+move (B,1), Utility score: 0.6
+move (B,3), Utility score: 0.0
+move (C,1), Utility score: 0.6
+move (C,2), Utility score: 0.0
+Number of nodes searched: 238
+X O . 
+X X . 
+. . O 
+>> choose O
+move (A,3), Utility score: -0.7
+move (B,3), Utility score: -0.7
+move (C,1), Utility score: -0.7
+move (C,2), Utility score: -0.7
+Number of nodes searched: 37
+X O O 
+X X . 
+. . O 
+>> choose X
+move (B,3), Utility score: 0.8
+move (C,1), Utility score: 0.8
+move (C,2), Utility score: -0.7
+Number of nodes searched: 7
+X O O 
+X X X 
+. . O 
+
+X Wins

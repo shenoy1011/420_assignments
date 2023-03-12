@@ -1,4 +1,5 @@
 board = [['','',''], ['','',''], ['','','']]
+pruning = 'off'
 
 def show():
     for i in range(3):
@@ -213,9 +214,135 @@ def minscore(piece, boardInput, depth):
 
     return utility, move, childrenNodes
 
+def maxscoreWithPruning(piece, boardInput, depth, alphaInput, betaInput):
+    status = boardEval(boardInput)
+    if (piece == 'X' and status == 'X Wins'):
+        util = 1.0 - (0.1 * depth)
+        return util, 'null', 1
+    elif (piece == 'X' and status == 'O Wins'):
+        util = -1.0 + (0.1 * depth)
+        return util, 'null', 1
+    elif (piece == 'O' and status == 'O Wins'):
+        util = 1.0 - (0.1 * depth)
+        return util, 'null', 1
+    elif (piece == 'O' and status == 'X Wins'):
+        util = -1.0 + (0.1 * depth)
+        return util, 'null', 1
+    elif (status == 'Game Ends In Draw'):
+        return 0.0, 'null', 1
+    
+    utility = -100
+    move = ''
+    childrenNodes = 0
+    alpha = alphaInput
+    beta = betaInput
+
+    # print('Maxscore ' + piece + ' with depth: ' + str(depth))
+    for i in range(3):
+        for j in range(3):
+            if (boardInput[i][j] == ''):
+                boardCopy = [row[:] for row in boardInput]
+                boardCopy[i][j] = piece
+                result = ()
+                if (piece == 'X'):
+                    result = minscoreWithPruning('O', boardCopy, 1 + depth, alpha, beta)
+                else:
+                    result = minscoreWithPruning('X', boardCopy, 1 + depth, alpha, beta)
+                
+                childrenNodes += result[2]
+                # print('Considered ' + str(result[0]) + ' ' + result[1])
+                """print(result)
+                print(result[0])
+                print(type(result[0]))"""
+                if (result[0] > utility):
+                    utility = result[0]
+                    rowLetter = getRowLetter(i)
+                    colNum = getColNum(j)
+                    move = piece + ' ' + rowLetter + ' ' + colNum
+                    alpha = result[0]
+                if (depth == 1):
+                    rowLetter = getRowLetter(i)
+                    colNum = getColNum(j)
+                    print('move (' + rowLetter + ',' + colNum + '), Utility score: ' + str(result[0]))
+                if (result[0] > beta):
+                    childrenNodes += 1
+                    if (depth == 1):
+                        print('Number of nodes searched: ' + str(childrenNodes))
+                    return utility, move, childrenNodes
+
+
+    childrenNodes += 1
+    if (depth == 1):
+        print('Number of nodes searched: ' + str(childrenNodes))
+
+    return utility, move, childrenNodes
+
+def minscoreWithPruning(piece, boardInput, depth, alphaInput, betaInput):
+    status = boardEval(boardInput) 
+    if (piece == 'X' and status == 'X Wins'):
+        util = -1.0 + (0.1 * depth)
+        return util, 'null', 1
+    elif (piece == 'X' and status == 'O Wins'):
+        util = 1.0 - (0.1 * depth)
+        return util, 'null', 1
+    elif (piece == 'O' and status == 'O Wins'):
+        util = -1.0 + (0.1 * depth)
+        return util, 'null', 1
+    elif (piece == 'O' and status == 'X Wins'):
+        util = 1.0 - (0.1 * depth)
+        return util, 'null', 1
+    elif (status == 'Game Ends In Draw'):
+        return 0.0, 'null', 1
+    
+    utility = 100
+    move = ''
+    childrenNodes = 0
+    alpha = alphaInput
+    beta = betaInput
+
+    # print('Minscore ' + piece + ' with depth: ' + str(depth))
+    for i in range(3):
+        for j in range(3):
+            if (boardInput[i][j] == ''):
+                boardCopy = [row[:] for row in boardInput]
+                boardCopy[i][j] = piece
+                result = ()
+                if (piece == 'X'):
+                    result = maxscoreWithPruning('O', boardCopy, 1 + depth, alpha, beta)
+                else:
+                    result = maxscoreWithPruning('X', boardCopy, 1 + depth, alpha, beta)
+
+                childrenNodes += result[2]
+                # print('Considered ' + str(result[0]) + ' ' + result[1])
+                """print(result)
+                print(result[0])
+                print(type(result[0]))"""
+                if (result[0] < utility):
+                    utility = result[0]
+                    rowLetter = getRowLetter(i)
+                    colNum = getColNum(j)
+                    move = piece + ' ' + rowLetter + ' ' + colNum
+                    beta = result[0]
+                if (result[0] < alpha):
+                    childrenNodes += 1
+                    return utility, move, childrenNodes
+    
+    childrenNodes += 1
+
+    return utility, move, childrenNodes
+
+def reset():
+    for i in range(3):
+        for j in range(3):
+            board[i][j] = ''
+
 def choose(piece):  
-    result = maxscore(piece, board, 1)
-    move(result[1][0], result[1][2], result[1][4])
+    if (pruning == 'on'):
+        result = maxscoreWithPruning(piece, board, 1, -100, 100)
+        move(result[1][0], result[1][2], result[1][4])
+    elif (pruning == 'off'):
+        result = maxscore(piece, board, 1)
+        move(result[1][0], result[1][2], result[1][4])
 
 
 while True:
@@ -244,5 +371,13 @@ while True:
             break
     elif (command == 'show'):
         show()
+    elif (command == 'reset'):
+        reset()
+    elif (command == 'pruning'):
+        print(pruning)
+    elif (command == 'pruning on'):
+        pruning = 'on'
+    elif (command == 'pruning off'):
+        pruning = 'off'
     elif (command == 'quit'):
         break

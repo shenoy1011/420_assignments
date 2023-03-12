@@ -1,0 +1,97 @@
+>> ttt
+Welcome to tic tac toe
+. . . 
+. . . 
+. . . 
+>> choose X
+move (A,1), Utility score: 0.0
+move (A,2), Utility score: 0.0
+move (A,3), Utility score: 0.0
+move (B,1), Utility score: 0.0
+move (B,2), Utility score: 0.0
+move (B,3), Utility score: 0.0
+move (C,1), Utility score: 0.0
+move (C,2), Utility score: 0.0
+move (C,3), Utility score: 0.0
+Number of nodes searched: 549946
+X . . 
+. . . 
+. . . 
+>> choose O
+move (A,2), Utility score: -0.29999999999999993
+move (A,3), Utility score: -0.29999999999999993
+move (B,1), Utility score: -0.29999999999999993
+move (B,2), Utility score: 0.0
+move (B,3), Utility score: -0.29999999999999993
+move (C,1), Utility score: -0.29999999999999993
+move (C,2), Utility score: -0.29999999999999993
+move (C,3), Utility score: -0.29999999999999993
+Number of nodes searched: 59705
+X . . 
+. O . 
+. . . 
+>> choose X
+move (A,2), Utility score: 0.0
+move (A,3), Utility score: 0.0
+move (B,1), Utility score: 0.0
+move (B,3), Utility score: 0.0
+move (C,1), Utility score: 0.0
+move (C,2), Utility score: 0.0
+move (C,3), Utility score: 0.0
+Number of nodes searched: 7332
+X X . 
+. O . 
+. . . 
+>> choose O
+move (A,3), Utility score: 0.0
+move (B,1), Utility score: -0.7
+move (B,3), Utility score: -0.7
+move (C,1), Utility score: -0.7
+move (C,2), Utility score: -0.7
+move (C,3), Utility score: -0.7
+Number of nodes searched: 935
+X X O 
+. O . 
+. . . 
+>> choose X
+move (B,1), Utility score: -0.7
+move (B,3), Utility score: -0.7
+move (C,1), Utility score: 0.0
+move (C,2), Utility score: -0.7
+move (C,3), Utility score: -0.7
+Number of nodes searched: 198
+X X O 
+. O . 
+X . . 
+>> choose O
+move (B,1), Utility score: 0.0
+move (B,3), Utility score: -0.7
+move (C,2), Utility score: -0.7
+move (C,3), Utility score: -0.7
+Number of nodes searched: 47
+X X O 
+O O . 
+X . . 
+>> choose X
+move (B,3), Utility score: 0.0
+move (C,2), Utility score: -0.7
+move (C,3), Utility score: -0.7
+Number of nodes searched: 14
+X X O 
+O O X 
+X . . 
+>> choose O
+move (C,2), Utility score: 0.0
+move (C,3), Utility score: 0.0
+Number of nodes searched: 5
+X X O 
+O O X 
+X O . 
+>> choose X
+move (C,3), Utility score: 0.0
+Number of nodes searched: 2
+X X O 
+O O X 
+X O X 
+
+Game Ends In Draw
