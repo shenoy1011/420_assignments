@@ -3,6 +3,7 @@ Welcome to tic tac toe
 . . . 
 . . . 
 . . . 
+>> pruning on
 >> move X A 2
 . X . 
 . . . 
@@ -13,10 +14,10 @@ move (A,3), Utility score: 0.0
 move (B,1), Utility score: -0.29999999999999993
 move (B,2), Utility score: 0.0
 move (B,3), Utility score: -0.29999999999999993
-move (C,1), Utility score: -0.29999999999999993
+move (C,1), Utility score: -0.09999999999999998
 move (C,2), Utility score: 0.0
 move (C,3), Utility score: -0.29999999999999993
-Number of nodes searched: 63905
+Number of nodes searched: 15885
 O X . 
 . . . 
 . . . 
@@ -28,7 +29,7 @@ move (B,3), Utility score: -0.29999999999999993
 move (C,1), Utility score: 0.0
 move (C,2), Utility score: -0.29999999999999993
 move (C,3), Utility score: 0.0
-Number of nodes searched: 8752
+Number of nodes searched: 4688
 O X . 
 X . . 
 . . . 
@@ -39,7 +40,7 @@ move (B,3), Utility score: 0.0
 move (C,1), Utility score: -0.5
 move (C,2), Utility score: 0.0
 move (C,3), Utility score: -0.5
-Number of nodes searched: 1465
+Number of nodes searched: 916
 O X . 
 X O . 
 . . . 
@@ -49,7 +50,7 @@ move (B,3), Utility score: -0.7
 move (C,1), Utility score: -0.7
 move (C,2), Utility score: -0.7
 move (C,3), Utility score: 0.0
-Number of nodes searched: 230
+Number of nodes searched: 226
 O X . 
 X O . 
 . . X 
@@ -58,7 +59,7 @@ move (A,3), Utility score: 0.0
 move (B,3), Utility score: 0.0
 move (C,1), Utility score: 0.0
 move (C,2), Utility score: 0.0
-Number of nodes searched: 61
+Number of nodes searched: 57
 O X O 
 X O . 
 . . X 
