@@ -7,7 +7,7 @@
 -O3Y C3Y C3B
 # labels are wrong
 -L1W -C1W
--L1Y C1Y
+-L1Y -C1Y
 -L1B -C1B
 -L2W -C2W
 -L2Y -C2Y
