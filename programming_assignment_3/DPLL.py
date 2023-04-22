@@ -38,9 +38,9 @@ def processCNF():
         sym = sys.argv[i]
         if sym == '+UCH':
             continue
+        clauseList.append(sym)
         if sym[0] == '-':
             sym = sym[1:]
-        clauseList.append(sym)
         if sym not in symbolList:
             # model[sym] = 0
             symbolList.append(sym)
