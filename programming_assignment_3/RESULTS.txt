@@ -1,0 +1,39 @@
+Command: python DPLL.py mapcolor.cnf  
+Just the satisfied propositions: WAR NTG QR SAB NSWG VR TR 
+Total DPLL calls without UCH: 36
+
+Command: python DPLL.py mapcolor.cnf +UCH  
+Just the satisfied propositions: WAR NTG SAB QR NSWG VR TR 
+Total DPLL calls with UCH: 22
+
+Command: python DPLL.py mapcolor.cnf QG
+Just the satisfied propositions: WAG NTR QG SAB NSWR VG TR 
+Total DPLL calls without UCH: 68
+
+Command: python DPLL.py mapcolor.cnf QG +UCH  
+Just the satisfied propositions: QG WAG NTR SAB NSWR VG TR 
+Total DPLL calls with UCH: 29
+
+Command: python DPLL.py 3queens.cnf  
+Unsatisifiable
+Total DPLL calls without UCH: 43
+
+Command: python DPLL.py 3queens.cnf +UCH 
+Unsatisifiable
+Total DPLL calls with UCH: 25
+
+Command: python DPLL.py 4queens.cnf  
+Just the satisfied propositions: Q12 Q24 Q31 Q43 
+Total DPLL calls without UCH: 71
+
+Command: python DPLL.py 4queens.cnf +UCH  
+Just the satisfied propositions: Q12 Q24 Q43 Q31 
+Total DPLL calls with UCH: 35
+
+Command: python DPLL.py sammy.cnf O1Y O2W O3Y L1W L2Y L3B  
+Just the satisfied propositions: O1W C1B O1Y O2W C2W O3Y C3Y L1W L1Y L2Y L2B L3W L3B 
+Total DPLL calls without UCH: 160
+
+Command: python DPLL.py sammy.cnf O1W L2B L3B O2Y O3W L1W  
+Just the satisfied propositions: O1W C1B O1Y O2Y C2Y O3W C3W L1W L1Y L2W L2B L3Y L3B 
+Total DPLL calls without UCH: 304

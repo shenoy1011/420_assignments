@@ -1,0 +1,110 @@
+command: python DPLL.py 4queens.cnf  
+Trying Q11 : True to model
+Trying Q12 : True to model
+Backtracking occured
+Trying Q12 : False to model
+Trying Q13 : True to model
+Backtracking occured
+Trying Q13 : False to model
+Trying Q14 : True to model
+Backtracking occured
+Trying Q14 : False to model
+Trying Q21 : True to model
+Backtracking occured
+Trying Q21 : False to model
+Trying Q22 : True to model
+Backtracking occured
+Trying Q22 : False to model
+Trying Q23 : True to model
+Trying Q24 : True to model
+Backtracking occured
+Trying Q24 : False to model
+Trying Q31 : True to model
+Backtracking occured
+Trying Q31 : False to model
+Trying Q32 : True to model
+Backtracking occured
+Trying Q32 : False to model
+Trying Q33 : True to model
+Backtracking occured
+Trying Q33 : False to model
+Trying Q34 : True to model
+Backtracking occured
+Trying Q34 : False to model
+Backtracking occured
+Trying Q23 : False to model
+Trying Q24 : True to model
+Trying Q31 : True to model
+Backtracking occured
+Trying Q31 : False to model
+Trying Q32 : True to model
+Trying Q33 : True to model
+Backtracking occured
+Trying Q33 : False to model
+Trying Q34 : True to model
+Backtracking occured
+Trying Q34 : False to model
+Trying Q41 : True to model
+Backtracking occured
+Trying Q41 : False to model
+Trying Q42 : True to model
+Backtracking occured
+Trying Q42 : False to model
+Trying Q43 : True to model
+Backtracking occured
+Trying Q43 : False to model
+Backtracking occured
+Trying Q32 : False to model
+Trying Q33 : True to model
+Backtracking occured
+Trying Q33 : False to model
+Trying Q34 : True to model
+Backtracking occured
+Trying Q34 : False to model
+Backtracking occured
+Trying Q24 : False to model
+Backtracking occured
+Trying Q11 : False to model
+Trying Q12 : True to model
+Trying Q13 : True to model
+Backtracking occured
+Trying Q13 : False to model
+Trying Q14 : True to model
+Backtracking occured
+Trying Q14 : False to model
+Trying Q21 : True to model
+Backtracking occured
+Trying Q21 : False to model
+Trying Q22 : True to model
+Backtracking occured
+Trying Q22 : False to model
+Trying Q23 : True to model
+Backtracking occured
+Trying Q23 : False to model
+Trying Q24 : True to model
+Trying Q31 : True to model
+Trying Q32 : True to model
+Backtracking occured
+Trying Q32 : False to model
+Trying Q33 : True to model
+Backtracking occured
+Trying Q33 : False to model
+Trying Q34 : True to model
+Backtracking occured
+Trying Q34 : False to model
+Trying Q41 : True to model
+Backtracking occured
+Trying Q41 : False to model
+Trying Q42 : True to model
+Backtracking occured
+Trying Q42 : False to model
+Trying Q43 : True to model
+Trying Q44 : True to model
+Backtracking occured
+Trying Q44 : False to model
+
+FINAL MODEL: {'Q11': -1, 'Q12': 1, 'Q13': -1, 'Q14': -1, 'Q21': -1, 'Q22': -1, 'Q23': -1, 'Q24': 1, 'Q31': 1, 'Q32': -1, 'Q33': -1, 'Q34': -1, 'Q41': -1, 'Q42': -1, 'Q43': 1, 'Q44': -1}
+Just the satisfied propositions:
+Q12 Q24 Q31 Q43 
+Total DPLL calls: 71
+UCH = False

@@ -1,0 +1,727 @@
+command: python DPLL.py 6queens.cnf  
+Trying Q11 : True to model
+Trying Q12 : True to model
+Backtracking occured
+Trying Q12 : False to model
+Trying Q13 : True to model
+Backtracking occured
+Trying Q13 : False to model
+Trying Q14 : True to model
+Backtracking occured
+Trying Q14 : False to model
+Trying Q15 : True to model
+Backtracking occured
+Trying Q15 : False to model
+Trying Q16 : True to model
+Backtracking occured
+Trying Q16 : False to model
+Trying Q21 : True to model
+Backtracking occured
+Trying Q21 : False to model
+Trying Q22 : True to model
+Backtracking occured
+Trying Q22 : False to model
+Trying Q23 : True to model
+Trying Q24 : True to model
+Backtracking occured
+Trying Q24 : False to model
+Trying Q25 : True to model
+Backtracking occured
+Trying Q25 : False to model
+Trying Q26 : True to model
+Backtracking occured
+Trying Q26 : False to model
+Trying Q31 : True to model
+Backtracking occured
+Trying Q31 : False to model
+Trying Q32 : True to model
+Backtracking occured
+Trying Q32 : False to model
+Trying Q33 : True to model
+Backtracking occured
+Trying Q33 : False to model
+Trying Q34 : True to model
+Backtracking occured
+Trying Q34 : False to model
+Trying Q35 : True to model
+Trying Q36 : True to model
+Backtracking occured
+Trying Q36 : False to model
+Trying Q41 : True to model
+Backtracking occured
+Trying Q41 : False to model
+Trying Q42 : True to model
+Trying Q43 : True to model
+Backtracking occured
+Trying Q43 : False to model
+Trying Q44 : True to model
+Backtracking occured
+Trying Q44 : False to model
+Trying Q45 : True to model
+Backtracking occured
+Trying Q45 : False to model
+Trying Q46 : True to model
+Backtracking occured
+Trying Q46 : False to model
+Trying Q51 : True to model
+Backtracking occured
+Trying Q51 : False to model
+Trying Q52 : True to model
+Backtracking occured
+Trying Q52 : False to model
+Trying Q53 : True to model
+Backtracking occured
+Trying Q53 : False to model
+Trying Q54 : True to model
+Trying Q55 : True to model
+Backtracking occured
+Trying Q55 : False to model
+Trying Q56 : True to model
+Backtracking occured
+Trying Q56 : False to model
+Trying Q61 : True to model
+Backtracking occured
+Trying Q61 : False to model
+Trying Q62 : True to model
+Backtracking occured
+Trying Q62 : False to model
+Trying Q63 : True to model
+Backtracking occured
+Trying Q63 : False to model
+Trying Q64 : True to model
+Backtracking occured
+Trying Q64 : False to model
+Trying Q65 : True to model
+Backtracking occured
+Trying Q65 : False to model
+Trying Q66 : True to model
+Backtracking occured
+Trying Q66 : False to model
+Backtracking occured
+Trying Q54 : False to model
+Trying Q55 : True to model
+Backtracking occured
+Trying Q55 : False to model
+Trying Q56 : True to model
+Backtracking occured
+Trying Q56 : False to model
+Backtracking occured
+Trying Q42 : False to model
+Trying Q43 : True to model
+Backtracking occured
+Trying Q43 : False to model
+Trying Q44 : True to model
+Backtracking occured
+Trying Q44 : False to model
+Trying Q45 : True to model
+Backtracking occured
+Trying Q45 : False to model
+Trying Q46 : True to model
+Backtracking occured
+Trying Q46 : False to model
+Backtracking occured
+Trying Q35 : False to model
+Trying Q36 : True to model
+Trying Q41 : True to model
+Backtracking occured
+Trying Q41 : False to model
+Trying Q42 : True to model
+Trying Q43 : True to model
+Backtracking occured
+Trying Q43 : False to model
+Trying Q44 : True to model
+Backtracking occured
+Trying Q44 : False to model
+Trying Q45 : True to model
+Backtracking occured
+Trying Q45 : False to model
+Trying Q46 : True to model
+Backtracking occured
+Trying Q46 : False to model
+Trying Q51 : True to model
+Backtracking occured
+Trying Q51 : False to model
+Trying Q52 : True to model
+Backtracking occured
+Trying Q52 : False to model
+Trying Q53 : True to model
+Backtracking occured
+Trying Q53 : False to model
+Trying Q54 : True to model
+Backtracking occured
+Trying Q54 : False to model
+Trying Q55 : True to model
+Backtracking occured
+Trying Q55 : False to model
+Trying Q56 : True to model
+Backtracking occured
+Trying Q56 : False to model
+Backtracking occured
+Trying Q42 : False to model
+Trying Q43 : True to model
+Backtracking occured
+Trying Q43 : False to model
+Trying Q44 : True to model
+Backtracking occured
+Trying Q44 : False to model
+Trying Q45 : True to model
+Backtracking occured
+Trying Q45 : False to model
+Trying Q46 : True to model
+Backtracking occured
+Trying Q46 : False to model
+Backtracking occured
+Trying Q36 : False to model
+Backtracking occured
+Trying Q23 : False to model
+Trying Q24 : True to model
+Trying Q25 : True to model
+Backtracking occured
+Trying Q25 : False to model
+Trying Q26 : True to model
+Backtracking occured
+Trying Q26 : False to model
+Trying Q31 : True to model
+Backtracking occured
+Trying Q31 : False to model
+Trying Q32 : True to model
+Trying Q33 : True to model
+Backtracking occured
+Trying Q33 : False to model
+Trying Q34 : True to model
+Backtracking occured
+Trying Q34 : False to model
+Trying Q35 : True to model
+Backtracking occured
+Trying Q35 : False to model
+Trying Q36 : True to model
+Backtracking occured
+Trying Q36 : False to model
+Trying Q41 : True to model
+Backtracking occured
+Trying Q41 : False to model
+Trying Q42 : True to model
+Backtracking occured
+Trying Q42 : False to model
+Trying Q43 : True to model
+Backtracking occured
+Trying Q43 : False to model
+Trying Q44 : True to model
+Backtracking occured
+Trying Q44 : False to model
+Trying Q45 : True to model
+Trying Q46 : True to model
+Backtracking occured
+Trying Q46 : False to model
+Trying Q51 : True to model
+Backtracking occured
+Trying Q51 : False to model
+Trying Q52 : True to model
+Backtracking occured
+Trying Q52 : False to model
+Trying Q53 : True to model
+Trying Q54 : True to model
+Backtracking occured
+Trying Q54 : False to model
+Trying Q55 : True to model
+Backtracking occured
+Trying Q55 : False to model
+Trying Q56 : True to model
+Backtracking occured
+Trying Q56 : False to model
+Trying Q61 : True to model
+Backtracking occured
+Trying Q61 : False to model
+Trying Q62 : True to model
+Backtracking occured
+Trying Q62 : False to model
+Trying Q63 : True to model
+Backtracking occured
+Trying Q63 : False to model
+Trying Q64 : True to model
+Backtracking occured
+Trying Q64 : False to model
+Trying Q65 : True to model
+Backtracking occured
+Trying Q65 : False to model
+Trying Q66 : True to model
+Backtracking occured
+Trying Q66 : False to model
+Backtracking occured
+Trying Q53 : False to model
+Trying Q54 : True to model
+Backtracking occured
+Trying Q54 : False to model
+Trying Q55 : True to model
+Backtracking occured
+Trying Q55 : False to model
+Trying Q56 : True to model
+Backtracking occured
+Trying Q56 : False to model
+Backtracking occured
+Trying Q45 : False to model
+Trying Q46 : True to model
+Backtracking occured
+Trying Q46 : False to model
+Backtracking occured
+Trying Q32 : False to model
+Trying Q33 : True to model
+Backtracking occured
+Trying Q33 : False to model
+Trying Q34 : True to model
+Backtracking occured
+Trying Q34 : False to model
+Trying Q35 : True to model
+Backtracking occured
+Trying Q35 : False to model
+Trying Q36 : True to model
+Trying Q41 : True to model
+Backtracking occured
+Trying Q41 : False to model
+Trying Q42 : True to model
+Backtracking occured
+Trying Q42 : False to model
+Trying Q43 : True to model
+Trying Q44 : True to model
+Backtracking occured
+Trying Q44 : False to model
+Trying Q45 : True to model
+Backtracking occured
+Trying Q45 : False to model
+Trying Q46 : True to model
+Backtracking occured
+Trying Q46 : False to model
+Trying Q51 : True to model
+Backtracking occured
+Trying Q51 : False to model
+Trying Q52 : True to model
+Backtracking occured
+Trying Q52 : False to model
+Trying Q53 : True to model
+Backtracking occured
+Trying Q53 : False to model
+Trying Q54 : True to model
+Backtracking occured
+Trying Q54 : False to model
+Trying Q55 : True to model
+Backtracking occured
+Trying Q55 : False to model
+Trying Q56 : True to model
+Backtracking occured
+Trying Q56 : False to model
+Backtracking occured
+Trying Q43 : False to model
+Trying Q44 : True to model
+Backtracking occured
+Trying Q44 : False to model
+Trying Q45 : True to model
+Backtracking occured
+Trying Q45 : False to model
+Trying Q46 : True to model
+Backtracking occured
+Trying Q46 : False to model
+Backtracking occured
+Trying Q36 : False to model
+Backtracking occured
+Trying Q24 : False to model
+Trying Q25 : True to model
+Trying Q26 : True to model
+Backtracking occured
+Trying Q26 : False to model
+Trying Q31 : True to model
+Backtracking occured
+Trying Q31 : False to model
+Trying Q32 : True to model
+Trying Q33 : True to model
+Backtracking occured
+Trying Q33 : False to model
+Trying Q34 : True to model
+Backtracking occured
+Trying Q34 : False to model
+Trying Q35 : True to model
+Backtracking occured
+Trying Q35 : False to model
+Trying Q36 : True to model
+Backtracking occured
+Trying Q36 : False to model
+Trying Q41 : True to model
+Backtracking occured
+Trying Q41 : False to model
+Trying Q42 : True to model
+Backtracking occured
+Trying Q42 : False to model
+Trying Q43 : True to model
+Backtracking occured
+Trying Q43 : False to model
+Trying Q44 : True to model
+Backtracking occured
+Trying Q44 : False to model
+Trying Q45 : True to model
+Backtracking occured
+Trying Q45 : False to model
+Trying Q46 : True to model
+Trying Q51 : True to model
+Backtracking occured
+Trying Q51 : False to model
+Trying Q52 : True to model
+Backtracking occured
+Trying Q52 : False to model
+Trying Q53 : True to model
+Trying Q54 : True to model
+Backtracking occured
+Trying Q54 : False to model
+Trying Q55 : True to model
+Backtracking occured
+Trying Q55 : False to model
+Trying Q56 : True to model
+Backtracking occured
+Trying Q56 : False to model
+Trying Q61 : True to model
+Backtracking occured
+Trying Q61 : False to model
+Trying Q62 : True to model
+Backtracking occured
+Trying Q62 : False to model
+Trying Q63 : True to model
+Backtracking occured
+Trying Q63 : False to model
+Trying Q64 : True to model
+Backtracking occured
+Trying Q64 : False to model
+Backtracking occured
+Trying Q53 : False to model
+Trying Q54 : True to model
+Backtracking occured
+Trying Q54 : False to model
+Trying Q55 : True to model
+Backtracking occured
+Trying Q55 : False to model
+Trying Q56 : True to model
+Backtracking occured
+Trying Q56 : False to model
+Backtracking occured
+Trying Q46 : False to model
+Backtracking occured
+Trying Q32 : False to model
+Trying Q33 : True to model
+Backtracking occured
+Trying Q33 : False to model
+Trying Q34 : True to model
+Backtracking occured
+Trying Q34 : False to model
+Trying Q35 : True to model
+Backtracking occured
+Trying Q35 : False to model
+Trying Q36 : True to model
+Backtracking occured
+Trying Q36 : False to model
+Backtracking occured
+Trying Q25 : False to model
+Trying Q26 : True to model
+Trying Q31 : True to model
+Backtracking occured
+Trying Q31 : False to model
+Trying Q32 : True to model
+Trying Q33 : True to model
+Backtracking occured
+Trying Q33 : False to model
+Trying Q34 : True to model
+Backtracking occured
+Trying Q34 : False to model
+Trying Q35 : True to model
+Backtracking occured
+Trying Q35 : False to model
+Trying Q36 : True to model
+Backtracking occured
+Trying Q36 : False to model
+Trying Q41 : True to model
+Backtracking occured
+Trying Q41 : False to model
+Trying Q42 : True to model
+Backtracking occured
+Trying Q42 : False to model
+Trying Q43 : True to model
+Backtracking occured
+Trying Q43 : False to model
+Trying Q44 : True to model
+Backtracking occured
+Trying Q44 : False to model
+Trying Q45 : True to model
+Trying Q46 : True to model
+Backtracking occured
+Trying Q46 : False to model
+Trying Q51 : True to model
+Backtracking occured
+Trying Q51 : False to model
+Trying Q52 : True to model
+Backtracking occured
+Trying Q52 : False to model
+Trying Q53 : True to model
+Backtracking occured
+Trying Q53 : False to model
+Trying Q54 : True to model
+Backtracking occured
+Trying Q54 : False to model
+Trying Q55 : True to model
+Backtracking occured
+Trying Q55 : False to model
+Trying Q56 : True to model
+Backtracking occured
+Trying Q56 : False to model
+Backtracking occured
+Trying Q45 : False to model
+Trying Q46 : True to model
+Backtracking occured
+Trying Q46 : False to model
+Backtracking occured
+Trying Q32 : False to model
+Trying Q33 : True to model
+Backtracking occured
+Trying Q33 : False to model
+Trying Q34 : True to model
+Trying Q35 : True to model
+Backtracking occured
+Trying Q35 : False to model
+Trying Q36 : True to model
+Backtracking occured
+Trying Q36 : False to model
+Trying Q41 : True to model
+Backtracking occured
+Trying Q41 : False to model
+Trying Q42 : True to model
+Trying Q43 : True to model
+Backtracking occured
+Trying Q43 : False to model
+Trying Q44 : True to model
+Backtracking occured
+Trying Q44 : False to model
+Trying Q45 : True to model
+Backtracking occured
+Trying Q45 : False to model
+Trying Q46 : True to model
+Backtracking occured
+Trying Q46 : False to model
+Trying Q51 : True to model
+Backtracking occured
+Trying Q51 : False to model
+Trying Q52 : True to model
+Backtracking occured
+Trying Q52 : False to model
+Trying Q53 : True to model
+Backtracking occured
+Trying Q53 : False to model
+Trying Q54 : True to model
+Backtracking occured
+Trying Q54 : False to model
+Trying Q55 : True to model
+Backtracking occured
+Trying Q55 : False to model
+Trying Q56 : True to model
+Backtracking occured
+Trying Q56 : False to model
+Backtracking occured
+Trying Q42 : False to model
+Trying Q43 : True to model
+Backtracking occured
+Trying Q43 : False to model
+Trying Q44 : True to model
+Backtracking occured
+Trying Q44 : False to model
+Trying Q45 : True to model
+Backtracking occured
+Trying Q45 : False to model
+Trying Q46 : True to model
+Backtracking occured
+Trying Q46 : False to model
+Backtracking occured
+Trying Q34 : False to model
+Trying Q35 : True to model
+Backtracking occured
+Trying Q35 : False to model
+Trying Q36 : True to model
+Backtracking occured
+Trying Q36 : False to model
+Backtracking occured
+Trying Q26 : False to model
+Backtracking occured
+Trying Q11 : False to model
+Trying Q12 : True to model
+Trying Q13 : True to model
+Backtracking occured
+Trying Q13 : False to model
+Trying Q14 : True to model
+Backtracking occured
+Trying Q14 : False to model
+Trying Q15 : True to model
+Backtracking occured
+Trying Q15 : False to model
+Trying Q16 : True to model
+Backtracking occured
+Trying Q16 : False to model
+Trying Q21 : True to model
+Backtracking occured
+Trying Q21 : False to model
+Trying Q22 : True to model
+Backtracking occured
+Trying Q22 : False to model
+Trying Q23 : True to model
+Backtracking occured
+Trying Q23 : False to model
+Trying Q24 : True to model
+Trying Q25 : True to model
+Backtracking occured
+Trying Q25 : False to model
+Trying Q26 : True to model
+Backtracking occured
+Trying Q26 : False to model
+Trying Q31 : True to model
+Trying Q32 : True to model
+Backtracking occured
+Trying Q32 : False to model
+Trying Q33 : True to model
+Backtracking occured
+Trying Q33 : False to model
+Trying Q34 : True to model
+Backtracking occured
+Trying Q34 : False to model
+Trying Q35 : True to model
+Backtracking occured
+Trying Q35 : False to model
+Trying Q36 : True to model
+Backtracking occured
+Trying Q36 : False to model
+Trying Q41 : True to model
+Backtracking occured
+Trying Q41 : False to model
+Trying Q42 : True to model
+Backtracking occured
+Trying Q42 : False to model
+Trying Q43 : True to model
+Trying Q44 : True to model
+Backtracking occured
+Trying Q44 : False to model
+Trying Q45 : True to model
+Backtracking occured
+Trying Q45 : False to model
+Trying Q46 : True to model
+Backtracking occured
+Trying Q46 : False to model
+Trying Q51 : True to model
+Backtracking occured
+Trying Q51 : False to model
+Trying Q52 : True to model
+Backtracking occured
+Trying Q52 : False to model
+Trying Q53 : True to model
+Backtracking occured
+Trying Q53 : False to model
+Trying Q54 : True to model
+Backtracking occured
+Trying Q54 : False to model
+Trying Q55 : True to model
+Trying Q56 : True to model
+Backtracking occured
+Trying Q56 : False to model
+Trying Q61 : True to model
+Backtracking occured
+Trying Q61 : False to model
+Trying Q62 : True to model
+Backtracking occured
+Trying Q62 : False to model
+Trying Q63 : True to model
+Backtracking occured
+Trying Q63 : False to model
+Trying Q64 : True to model
+Backtracking occured
+Trying Q64 : False to model
+Trying Q65 : True to model
+Backtracking occured
+Trying Q65 : False to model
+Trying Q66 : True to model
+Backtracking occured
+Trying Q66 : False to model
+Backtracking occured
+Trying Q55 : False to model
+Trying Q56 : True to model
+Backtracking occured
+Trying Q56 : False to model
+Backtracking occured
+Trying Q43 : False to model
+Trying Q44 : True to model
+Backtracking occured
+Trying Q44 : False to model
+Trying Q45 : True to model
+Backtracking occured
+Trying Q45 : False to model
+Trying Q46 : True to model
+Backtracking occured
+Trying Q46 : False to model
+Backtracking occured
+Trying Q31 : False to model
+Trying Q32 : True to model
+Backtracking occured
+Trying Q32 : False to model
+Trying Q33 : True to model
+Backtracking occured
+Trying Q33 : False to model
+Trying Q34 : True to model
+Backtracking occured
+Trying Q34 : False to model
+Trying Q35 : True to model
+Backtracking occured
+Trying Q35 : False to model
+Trying Q36 : True to model
+Trying Q41 : True to model
+Trying Q42 : True to model
+Backtracking occured
+Trying Q42 : False to model
+Trying Q43 : True to model
+Backtracking occured
+Trying Q43 : False to model
+Trying Q44 : True to model
+Backtracking occured
+Trying Q44 : False to model
+Trying Q45 : True to model
+Backtracking occured
+Trying Q45 : False to model
+Trying Q46 : True to model
+Backtracking occured
+Trying Q46 : False to model
+Trying Q51 : True to model
+Backtracking occured
+Trying Q51 : False to model
+Trying Q52 : True to model
+Backtracking occured
+Trying Q52 : False to model
+Trying Q53 : True to model
+Trying Q54 : True to model
+Backtracking occured
+Trying Q54 : False to model
+Trying Q55 : True to model
+Backtracking occured
+Trying Q55 : False to model
+Trying Q56 : True to model
+Backtracking occured
+Trying Q56 : False to model
+Trying Q61 : True to model
+Backtracking occured
+Trying Q61 : False to model
+Trying Q62 : True to model
+Backtracking occured
+Trying Q62 : False to model
+Trying Q63 : True to model
+Backtracking occured
+Trying Q63 : False to model
+Trying Q64 : True to model
+Backtracking occured
+Trying Q64 : False to model
+Trying Q65 : True to model
+Trying Q66 : True to model
+Backtracking occured
+Trying Q66 : False to model
+
+FINAL MODEL: {'Q11': -1, 'Q12': 1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q21': -1, 'Q22': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q31': -1, 'Q32': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q41': 1, 'Q42': -1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q51': -1, 'Q52': -1, 'Q53': 1, 'Q54': -1, 'Q55': -1, 'Q56': -1, 'Q61': -1, 'Q62': -1, 'Q63': -1, 'Q64': -1, 'Q65': 1, 'Q66': -1}
+Just the satisfied propositions:
+Q12 Q24 Q36 Q41 Q53 Q65 
+Total DPLL calls: 483
+UCH = False

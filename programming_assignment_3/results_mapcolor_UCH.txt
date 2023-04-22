@@ -1,0 +1,28 @@
+command: python DPLL.py mapcolor.cnf +UCH  
+Trying WAR : True to model
+UCH: Forced assignment of WAG : False to model
+UCH: Forced assignment of WAB : False to model
+UCH: Forced assignment of NTR : False to model
+UCH: Forced assignment of SAR : False to model
+Trying NTG : True to model
+UCH: Forced assignment of NTB : False to model
+UCH: Forced assignment of SAG : False to model
+UCH: Forced assignment of SAB : True to model
+UCH: Forced assignment of QG : False to model
+UCH: Forced assignment of QB : False to model
+UCH: Forced assignment of QR : True to model
+UCH: Forced assignment of NSWR : False to model
+UCH: Forced assignment of NSWB : False to model
+UCH: Forced assignment of NSWG : True to model
+UCH: Forced assignment of VB : False to model
+UCH: Forced assignment of VG : False to model
+UCH: Forced assignment of VR : True to model
+Trying TR : True to model
+UCH: Forced assignment of TG : False to model
+UCH: Forced assignment of TB : False to model
+
+FINAL MODEL: {'WAR': 1, 'WAG': -1, 'WAB': -1, 'NTR': -1, 'NTG': 1, 'NTB': -1, 'QR': 1, 'QG': -1, 'QB': -1, 'SAR': -1, 'SAG': -1, 'SAB': 1, 'NSWR': -1, 'NSWG': 1, 'NSWB': -1, 'VR': 1, 'VG': -1, 'VB': -1, 'TR': 1, 'TG': -1, 'TB': -1}
+Just the satisfied propositions:
+WAR NTG SAB QR NSWG VR TR 
+Total DPLL calls: 22
+UCH = True

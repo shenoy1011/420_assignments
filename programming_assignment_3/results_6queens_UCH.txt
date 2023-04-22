@@ -1,0 +1,159 @@
+command: python DPLL.py 6queens.cnf +UCH  
+Trying Q11 : True to model
+UCH: Forced assignment of Q12 : False to model
+UCH: Forced assignment of Q13 : False to model
+UCH: Forced assignment of Q14 : False to model
+UCH: Forced assignment of Q15 : False to model
+UCH: Forced assignment of Q16 : False to model
+UCH: Forced assignment of Q21 : False to model
+UCH: Forced assignment of Q31 : False to model
+UCH: Forced assignment of Q41 : False to model
+UCH: Forced assignment of Q51 : False to model
+UCH: Forced assignment of Q61 : False to model
+UCH: Forced assignment of Q22 : False to model
+UCH: Forced assignment of Q33 : False to model
+UCH: Forced assignment of Q44 : False to model
+UCH: Forced assignment of Q55 : False to model
+UCH: Forced assignment of Q66 : False to model
+Trying Q23 : True to model
+UCH: Forced assignment of Q24 : False to model
+UCH: Forced assignment of Q25 : False to model
+UCH: Forced assignment of Q26 : False to model
+UCH: Forced assignment of Q43 : False to model
+UCH: Forced assignment of Q53 : False to model
+UCH: Forced assignment of Q63 : False to model
+UCH: Forced assignment of Q34 : False to model
+UCH: Forced assignment of Q45 : False to model
+UCH: Forced assignment of Q56 : False to model
+UCH: Forced assignment of Q32 : False to model
+Trying Q35 : True to model
+UCH: Forced assignment of Q36 : False to model
+UCH: Forced assignment of Q65 : False to model
+UCH: Forced assignment of Q46 : False to model
+Backtracking occured
+Trying Q35 : False to model
+UCH: Forced assignment of Q65 : True to model
+UCH: Forced assignment of Q62 : False to model
+UCH: Forced assignment of Q64 : False to model
+UCH: Forced assignment of Q54 : False to model
+Backtracking occured
+Trying Q23 : False to model
+Trying Q24 : True to model
+UCH: Forced assignment of Q25 : False to model
+UCH: Forced assignment of Q26 : False to model
+UCH: Forced assignment of Q34 : False to model
+UCH: Forced assignment of Q54 : False to model
+UCH: Forced assignment of Q64 : False to model
+UCH: Forced assignment of Q35 : False to model
+UCH: Forced assignment of Q46 : False to model
+UCH: Forced assignment of Q42 : False to model
+Trying Q32 : True to model
+UCH: Forced assignment of Q36 : False to model
+UCH: Forced assignment of Q52 : False to model
+UCH: Forced assignment of Q62 : False to model
+UCH: Forced assignment of Q43 : False to model
+UCH: Forced assignment of Q65 : False to model
+UCH: Forced assignment of Q45 : True to model
+UCH: Forced assignment of Q56 : False to model
+Backtracking occured
+Trying Q32 : False to model
+UCH: Forced assignment of Q36 : True to model
+UCH: Forced assignment of Q56 : False to model
+UCH: Forced assignment of Q63 : False to model
+UCH: Forced assignment of Q45 : False to model
+UCH: Forced assignment of Q65 : True to model
+UCH: Forced assignment of Q62 : False to model
+UCH: Forced assignment of Q43 : False to model
+Backtracking occured
+Trying Q24 : False to model
+Trying Q25 : True to model
+UCH: Forced assignment of Q26 : False to model
+UCH: Forced assignment of Q35 : False to model
+UCH: Forced assignment of Q45 : False to model
+UCH: Forced assignment of Q65 : False to model
+UCH: Forced assignment of Q36 : False to model
+UCH: Forced assignment of Q52 : False to model
+UCH: Forced assignment of Q43 : False to model
+UCH: Forced assignment of Q34 : False to model
+UCH: Forced assignment of Q32 : True to model
+UCH: Forced assignment of Q42 : False to model
+UCH: Forced assignment of Q62 : False to model
+UCH: Forced assignment of Q54 : False to model
+UCH: Forced assignment of Q64 : True to model
+UCH: Forced assignment of Q63 : False to model
+UCH: Forced assignment of Q53 : False to model
+Backtracking occured
+Trying Q25 : False to model
+UCH: Forced assignment of Q26 : True to model
+UCH: Forced assignment of Q36 : False to model
+UCH: Forced assignment of Q46 : False to model
+UCH: Forced assignment of Q56 : False to model
+UCH: Forced assignment of Q62 : False to model
+UCH: Forced assignment of Q53 : False to model
+UCH: Forced assignment of Q35 : False to model
+Trying Q32 : True to model
+UCH: Forced assignment of Q34 : False to model
+UCH: Forced assignment of Q42 : False to model
+UCH: Forced assignment of Q52 : False to model
+UCH: Forced assignment of Q43 : False to model
+UCH: Forced assignment of Q54 : False to model
+Backtracking occured
+Trying Q32 : False to model
+UCH: Forced assignment of Q34 : True to model
+UCH: Forced assignment of Q54 : False to model
+UCH: Forced assignment of Q64 : False to model
+UCH: Forced assignment of Q45 : False to model
+UCH: Forced assignment of Q52 : False to model
+Backtracking occured
+Trying Q11 : False to model
+Trying Q12 : True to model
+UCH: Forced assignment of Q13 : False to model
+UCH: Forced assignment of Q14 : False to model
+UCH: Forced assignment of Q15 : False to model
+UCH: Forced assignment of Q16 : False to model
+UCH: Forced assignment of Q22 : False to model
+UCH: Forced assignment of Q32 : False to model
+UCH: Forced assignment of Q42 : False to model
+UCH: Forced assignment of Q52 : False to model
+UCH: Forced assignment of Q62 : False to model
+UCH: Forced assignment of Q23 : False to model
+UCH: Forced assignment of Q34 : False to model
+UCH: Forced assignment of Q45 : False to model
+UCH: Forced assignment of Q56 : False to model
+UCH: Forced assignment of Q21 : False to model
+Trying Q24 : True to model
+UCH: Forced assignment of Q25 : False to model
+UCH: Forced assignment of Q26 : False to model
+UCH: Forced assignment of Q44 : False to model
+UCH: Forced assignment of Q54 : False to model
+UCH: Forced assignment of Q64 : False to model
+UCH: Forced assignment of Q35 : False to model
+UCH: Forced assignment of Q46 : False to model
+UCH: Forced assignment of Q51 : False to model
+UCH: Forced assignment of Q33 : False to model
+Trying Q31 : True to model
+UCH: Forced assignment of Q36 : False to model
+UCH: Forced assignment of Q41 : False to model
+UCH: Forced assignment of Q61 : False to model
+UCH: Forced assignment of Q53 : False to model
+UCH: Forced assignment of Q66 : True to model
+UCH: Forced assignment of Q63 : False to model
+UCH: Forced assignment of Q65 : False to model
+UCH: Forced assignment of Q55 : False to model
+Backtracking occured
+Trying Q31 : False to model
+UCH: Forced assignment of Q36 : True to model
+UCH: Forced assignment of Q66 : False to model
+UCH: Forced assignment of Q63 : False to model
+Trying Q41 : True to model
+UCH: Forced assignment of Q43 : False to model
+UCH: Forced assignment of Q61 : False to model
+UCH: Forced assignment of Q53 : True to model
+UCH: Forced assignment of Q55 : False to model
+UCH: Forced assignment of Q65 : True to model
+
+FINAL MODEL: {'Q11': -1, 'Q12': 1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q21': -1, 'Q22': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q31': -1, 'Q32': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q41': 1, 'Q42': -1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q51': -1, 'Q52': -1, 'Q53': 1, 'Q54': -1, 'Q55': -1, 'Q56': -1, 'Q61': -1, 'Q62': -1, 'Q63': -1, 'Q64': -1, 'Q65': 1, 'Q66': -1}
+Just the satisfied propositions:
+Q12 Q24 Q36 Q41 Q53 Q65 
+Total DPLL calls: 145
+UCH = True

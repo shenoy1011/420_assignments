@@ -1,0 +1,56 @@
+command: python DPLL.py mapcolor.cnf  
+Trying WAR : True to model
+Trying WAG : True to model
+Backtracking occured
+Trying WAG : False to model
+Trying WAB : True to model
+Backtracking occured
+Trying WAB : False to model
+Trying NTR : True to model
+Backtracking occured
+Trying NTR : False to model
+Trying NTG : True to model
+Trying NTB : True to model
+Backtracking occured
+Trying NTB : False to model
+Trying QR : True to model
+Trying QG : True to model
+Backtracking occured
+Trying QG : False to model
+Trying QB : True to model
+Backtracking occured
+Trying QB : False to model
+Trying SAR : True to model
+Backtracking occured
+Trying SAR : False to model
+Trying SAG : True to model
+Backtracking occured
+Trying SAG : False to model
+Trying SAB : True to model
+Trying NSWR : True to model
+Backtracking occured
+Trying NSWR : False to model
+Trying NSWG : True to model
+Trying NSWB : True to model
+Backtracking occured
+Trying NSWB : False to model
+Trying VR : True to model
+Trying VG : True to model
+Backtracking occured
+Trying VG : False to model
+Trying VB : True to model
+Backtracking occured
+Trying VB : False to model
+Trying TR : True to model
+Trying TG : True to model
+Backtracking occured
+Trying TG : False to model
+Trying TB : True to model
+Backtracking occured
+Trying TB : False to model
+
+FINAL MODEL: {'WAR': 1, 'WAG': -1, 'WAB': -1, 'NTR': -1, 'NTG': 1, 'NTB': -1, 'QR': 1, 'QG': -1, 'QB': -1, 'SAR': -1, 'SAG': -1, 'SAB': 1, 'NSWR': -1, 'NSWG': 1, 'NSWB': -1, 'VR': 1, 'VG': -1, 'VB': -1, 'TR': 1, 'TG': -1, 'TB': -1}
+Just the satisfied propositions:
+WAR NTG QR SAB NSWG VR TR 
+Total DPLL calls: 36
+UCH = False

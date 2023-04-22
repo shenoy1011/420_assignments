@@ -1,0 +1,455 @@
+command: python DPLL.py sammy.cnf O1W L2B L3B O2Y O3W L1W  
+Trying O1W : True to model
+Trying C1W : True to model
+Trying C1B : True to model
+Trying O1Y : True to model
+Trying C1Y : True to model
+Trying O2W : True to model
+Trying C2W : True to model
+Backtracking occured
+Trying C2W : False to model
+Trying C2B : True to model
+Backtracking occured
+Trying C2B : False to model
+Backtracking occured
+Trying O2W : False to model
+Trying C2W : True to model
+Backtracking occured
+Trying C2W : False to model
+Trying C2B : True to model
+Backtracking occured
+Trying C2B : False to model
+Trying O2Y : True to model
+Trying C2Y : True to model
+Backtracking occured
+Trying C2Y : False to model
+Backtracking occured
+Trying O2Y : False to model
+Backtracking occured
+Trying C1Y : False to model
+Trying O2W : True to model
+Trying C2W : True to model
+Backtracking occured
+Trying C2W : False to model
+Trying C2B : True to model
+Backtracking occured
+Trying C2B : False to model
+Backtracking occured
+Trying O2W : False to model
+Trying C2W : True to model
+Backtracking occured
+Trying C2W : False to model
+Trying C2B : True to model
+Backtracking occured
+Trying C2B : False to model
+Trying O2Y : True to model
+Trying C2Y : True to model
+Trying O3W : True to model
+Trying C3W : True to model
+Backtracking occured
+Trying C3W : False to model
+Trying C3B : True to model
+Backtracking occured
+Trying C3B : False to model
+Backtracking occured
+Trying O3W : False to model
+Backtracking occured
+Trying C2Y : False to model
+Backtracking occured
+Trying O2Y : False to model
+Backtracking occured
+Trying O1Y : False to model
+Trying C1Y : True to model
+Trying O2W : True to model
+Trying C2W : True to model
+Backtracking occured
+Trying C2W : False to model
+Trying C2B : True to model
+Backtracking occured
+Trying C2B : False to model
+Backtracking occured
+Trying O2W : False to model
+Trying C2W : True to model
+Backtracking occured
+Trying C2W : False to model
+Trying C2B : True to model
+Backtracking occured
+Trying C2B : False to model
+Trying O2Y : True to model
+Trying C2Y : True to model
+Backtracking occured
+Trying C2Y : False to model
+Backtracking occured
+Trying O2Y : False to model
+Backtracking occured
+Trying C1Y : False to model
+Trying O2W : True to model
+Trying C2W : True to model
+Backtracking occured
+Trying C2W : False to model
+Trying C2B : True to model
+Backtracking occured
+Trying C2B : False to model
+Backtracking occured
+Trying O2W : False to model
+Trying C2W : True to model
+Backtracking occured
+Trying C2W : False to model
+Trying C2B : True to model
+Backtracking occured
+Trying C2B : False to model
+Trying O2Y : True to model
+Trying C2Y : True to model
+Trying O3W : True to model
+Trying C3W : True to model
+Backtracking occured
+Trying C3W : False to model
+Trying C3B : True to model
+Backtracking occured
+Trying C3B : False to model
+Backtracking occured
+Trying O3W : False to model
+Backtracking occured
+Trying C2Y : False to model
+Backtracking occured
+Trying O2Y : False to model
+Backtracking occured
+Trying C1B : False to model
+Trying O1Y : True to model
+Trying C1Y : True to model
+Trying O2W : True to model
+Trying C2W : True to model
+Backtracking occured
+Trying C2W : False to model
+Trying C2B : True to model
+Trying O2Y : True to model
+Trying C2Y : True to model
+Backtracking occured
+Trying C2Y : False to model
+Trying O3W : True to model
+Trying C3W : True to model
+Backtracking occured
+Trying C3W : False to model
+Trying C3B : True to model
+Backtracking occured
+Trying C3B : False to model
+Backtracking occured
+Trying O3W : False to model
+Backtracking occured
+Trying O2Y : False to model
+Backtracking occured
+Trying C2B : False to model
+Backtracking occured
+Trying O2W : False to model
+Trying C2W : True to model
+Backtracking occured
+Trying C2W : False to model
+Trying C2B : True to model
+Trying O2Y : True to model
+Trying C2Y : True to model
+Backtracking occured
+Trying C2Y : False to model
+Trying O3W : True to model
+Trying C3W : True to model
+Backtracking occured
+Trying C3W : False to model
+Trying C3B : True to model
+Backtracking occured
+Trying C3B : False to model
+Backtracking occured
+Trying O3W : False to model
+Backtracking occured
+Trying O2Y : False to model
+Backtracking occured
+Trying C2B : False to model
+Trying O2Y : True to model
+Trying C2Y : True to model
+Backtracking occured
+Trying C2Y : False to model
+Backtracking occured
+Trying O2Y : False to model
+Backtracking occured
+Trying C1Y : False to model
+Backtracking occured
+Trying O1Y : False to model
+Trying C1Y : True to model
+Trying O2W : True to model
+Trying C2W : True to model
+Backtracking occured
+Trying C2W : False to model
+Trying C2B : True to model
+Trying O2Y : True to model
+Trying C2Y : True to model
+Backtracking occured
+Trying C2Y : False to model
+Trying O3W : True to model
+Trying C3W : True to model
+Backtracking occured
+Trying C3W : False to model
+Trying C3B : True to model
+Backtracking occured
+Trying C3B : False to model
+Backtracking occured
+Trying O3W : False to model
+Backtracking occured
+Trying O2Y : False to model
+Backtracking occured
+Trying C2B : False to model
+Backtracking occured
+Trying O2W : False to model
+Trying C2W : True to model
+Backtracking occured
+Trying C2W : False to model
+Trying C2B : True to model
+Trying O2Y : True to model
+Trying C2Y : True to model
+Backtracking occured
+Trying C2Y : False to model
+Trying O3W : True to model
+Trying C3W : True to model
+Backtracking occured
+Trying C3W : False to model
+Trying C3B : True to model
+Backtracking occured
+Trying C3B : False to model
+Backtracking occured
+Trying O3W : False to model
+Backtracking occured
+Trying O2Y : False to model
+Backtracking occured
+Trying C2B : False to model
+Trying O2Y : True to model
+Trying C2Y : True to model
+Backtracking occured
+Trying C2Y : False to model
+Backtracking occured
+Trying O2Y : False to model
+Backtracking occured
+Trying C1Y : False to model
+Trying O2W : True to model
+Trying C2W : True to model
+Backtracking occured
+Trying C2W : False to model
+Trying C2B : True to model
+Trying O2Y : True to model
+Trying C2Y : True to model
+Trying O3W : True to model
+Trying C3W : True to model
+Backtracking occured
+Trying C3W : False to model
+Trying C3B : True to model
+Backtracking occured
+Trying C3B : False to model
+Backtracking occured
+Trying O3W : False to model
+Backtracking occured
+Trying C2Y : False to model
+Trying O3W : True to model
+Trying C3W : True to model
+Backtracking occured
+Trying C3W : False to model
+Trying C3B : True to model
+Backtracking occured
+Trying C3B : False to model
+Backtracking occured
+Trying O3W : False to model
+Backtracking occured
+Trying O2Y : False to model
+Backtracking occured
+Trying C2B : False to model
+Backtracking occured
+Trying O2W : False to model
+Trying C2W : True to model
+Backtracking occured
+Trying C2W : False to model
+Trying C2B : True to model
+Trying O2Y : True to model
+Trying C2Y : True to model
+Trying O3W : True to model
+Trying C3W : True to model
+Backtracking occured
+Trying C3W : False to model
+Trying C3B : True to model
+Backtracking occured
+Trying C3B : False to model
+Backtracking occured
+Trying O3W : False to model
+Backtracking occured
+Trying C2Y : False to model
+Trying O3W : True to model
+Trying C3W : True to model
+Backtracking occured
+Trying C3W : False to model
+Trying C3B : True to model
+Backtracking occured
+Trying C3B : False to model
+Backtracking occured
+Trying O3W : False to model
+Backtracking occured
+Trying O2Y : False to model
+Backtracking occured
+Trying C2B : False to model
+Trying O2Y : True to model
+Trying C2Y : True to model
+Trying O3W : True to model
+Trying C3W : True to model
+Backtracking occured
+Trying C3W : False to model
+Trying C3B : True to model
+Trying O3Y : True to model
+Trying C3Y : True to model
+Backtracking occured
+Trying C3Y : False to model
+Trying L1W : True to model
+Backtracking occured
+Trying L1W : False to model
+Backtracking occured
+Trying O3Y : False to model
+Trying C3Y : True to model
+Backtracking occured
+Trying C3Y : False to model
+Trying L1W : True to model
+Backtracking occured
+Trying L1W : False to model
+Backtracking occured
+Trying C3B : False to model
+Backtracking occured
+Trying O3W : False to model
+Backtracking occured
+Trying C2Y : False to model
+Backtracking occured
+Trying O2Y : False to model
+Backtracking occured
+Trying C1W : False to model
+Trying C1B : True to model
+Trying O1Y : True to model
+Trying C1Y : True to model
+Trying O2W : True to model
+Trying C2W : True to model
+Trying C2B : True to model
+Backtracking occured
+Trying C2B : False to model
+Trying O2Y : True to model
+Trying C2Y : True to model
+Backtracking occured
+Trying C2Y : False to model
+Backtracking occured
+Trying O2Y : False to model
+Backtracking occured
+Trying C2W : False to model
+Trying C2B : True to model
+Backtracking occured
+Trying C2B : False to model
+Backtracking occured
+Trying O2W : False to model
+Trying C2W : True to model
+Trying C2B : True to model
+Backtracking occured
+Trying C2B : False to model
+Trying O2Y : True to model
+Trying C2Y : True to model
+Backtracking occured
+Trying C2Y : False to model
+Backtracking occured
+Trying O2Y : False to model
+Backtracking occured
+Trying C2W : False to model
+Trying C2B : True to model
+Backtracking occured
+Trying C2B : False to model
+Trying O2Y : True to model
+Trying C2Y : True to model
+Backtracking occured
+Trying C2Y : False to model
+Backtracking occured
+Trying O2Y : False to model
+Backtracking occured
+Trying C1Y : False to model
+Trying O2W : True to model
+Trying C2W : True to model
+Trying C2B : True to model
+Backtracking occured
+Trying C2B : False to model
+Trying O2Y : True to model
+Trying C2Y : True to model
+Trying O3W : True to model
+Trying C3W : True to model
+Backtracking occured
+Trying C3W : False to model
+Trying C3B : True to model
+Backtracking occured
+Trying C3B : False to model
+Backtracking occured
+Trying O3W : False to model
+Backtracking occured
+Trying C2Y : False to model
+Backtracking occured
+Trying O2Y : False to model
+Backtracking occured
+Trying C2W : False to model
+Trying C2B : True to model
+Backtracking occured
+Trying C2B : False to model
+Backtracking occured
+Trying O2W : False to model
+Trying C2W : True to model
+Trying C2B : True to model
+Backtracking occured
+Trying C2B : False to model
+Trying O2Y : True to model
+Trying C2Y : True to model
+Trying O3W : True to model
+Trying C3W : True to model
+Backtracking occured
+Trying C3W : False to model
+Trying C3B : True to model
+Backtracking occured
+Trying C3B : False to model
+Backtracking occured
+Trying O3W : False to model
+Backtracking occured
+Trying C2Y : False to model
+Backtracking occured
+Trying O2Y : False to model
+Backtracking occured
+Trying C2W : False to model
+Trying C2B : True to model
+Backtracking occured
+Trying C2B : False to model
+Trying O2Y : True to model
+Trying C2Y : True to model
+Trying O3W : True to model
+Trying C3W : True to model
+Trying C3B : True to model
+Backtracking occured
+Trying C3B : False to model
+Trying O3Y : True to model
+Trying C3Y : True to model
+Backtracking occured
+Trying C3Y : False to model
+Backtracking occured
+Trying O3Y : False to model
+Trying C3Y : True to model
+Backtracking occured
+Trying C3Y : False to model
+Trying L1W : True to model
+Trying L1Y : True to model
+Trying L1B : True to model
+Backtracking occured
+Trying L1B : False to model
+Trying L2W : True to model
+Trying L2Y : True to model
+Backtracking occured
+Trying L2Y : False to model
+Trying L2B : True to model
+Trying L3W : True to model
+Backtracking occured
+Trying L3W : False to model
+Trying L3Y : True to model
+Trying L3B : True to model
+
+FINAL MODEL: {'O1W': 1, 'C1W': -1, 'C1B': 1, 'O1Y': 1, 'C1Y': -1, 'O2W': -1, 'C2W': -1, 'C2B': -1, 'O2Y': 1, 'C2Y': 1, 'O3W': 1, 'C3W': 1, 'C3B': -1, 'O3Y': -1, 'C3Y': -1, 'L1W': 1, 'L1Y': 1, 'L1B': -1, 'L2W': 1, 'L2Y': -1, 'L2B': 1, 'L3W': -1, 'L3Y': 1, 'L3B': 1}
+Just the satisfied propositions:
+O1W C1B O1Y O2Y C2Y O3W C3W L1W L1Y L2W L2B L3Y L3B 
+Total DPLL calls: 304
+UCH = False

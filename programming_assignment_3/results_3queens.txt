@@ -1,0 +1,68 @@
+command: python DPLL.py 3queens.cnf  
+Trying Q11 : True to model
+Trying Q12 : True to model
+Backtracking occured
+Trying Q12 : False to model
+Trying Q13 : True to model
+Backtracking occured
+Trying Q13 : False to model
+Trying Q21 : True to model
+Backtracking occured
+Trying Q21 : False to model
+Trying Q22 : True to model
+Backtracking occured
+Trying Q22 : False to model
+Trying Q23 : True to model
+Trying Q31 : True to model
+Backtracking occured
+Trying Q31 : False to model
+Trying Q32 : True to model
+Backtracking occured
+Trying Q32 : False to model
+Backtracking occured
+Trying Q23 : False to model
+Backtracking occured
+Trying Q11 : False to model
+Trying Q12 : True to model
+Trying Q13 : True to model
+Backtracking occured
+Trying Q13 : False to model
+Trying Q21 : True to model
+Backtracking occured
+Trying Q21 : False to model
+Trying Q22 : True to model
+Backtracking occured
+Trying Q22 : False to model
+Trying Q23 : True to model
+Backtracking occured
+Trying Q23 : False to model
+Backtracking occured
+Trying Q12 : False to model
+Trying Q13 : True to model
+Trying Q21 : True to model
+Trying Q22 : True to model
+Backtracking occured
+Trying Q22 : False to model
+Trying Q23 : True to model
+Backtracking occured
+Trying Q23 : False to model
+Trying Q31 : True to model
+Backtracking occured
+Trying Q31 : False to model
+Trying Q32 : True to model
+Backtracking occured
+Trying Q32 : False to model
+Backtracking occured
+Trying Q21 : False to model
+Trying Q22 : True to model
+Backtracking occured
+Trying Q22 : False to model
+Trying Q23 : True to model
+Backtracking occured
+Trying Q23 : False to model
+Backtracking occured
+Trying Q13 : False to model
+Backtracking occured
+Unsatisifiable
+Total DPLL calls: 43
+UCH = False
